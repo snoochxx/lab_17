@@ -33,7 +33,7 @@ class ExpressionCalculator implements Serializable {
     }
 
     public void displayState() {
-        System.out.printf("Текущее состояние: x = %.4f, y = %.4f%n", x, y);
+        System.out.printf("Текущее состояние: x = %.4f, y = %.4f\n", x, y);
     }
 
     public static void main(String[] args) {
